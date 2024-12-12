@@ -1,0 +1,14 @@
+services:
+  parttime-jobs-backend-1:
+    build: .
+    ports:
+      - "3000:30092"
+  parttime-jobs-backend-2:
+    build: .
+    ports:
+      - "3001:30092"
+  parttime-jobs-backend-3:
+    build: .
+    ports:
+      - "3002:30092"
+  
